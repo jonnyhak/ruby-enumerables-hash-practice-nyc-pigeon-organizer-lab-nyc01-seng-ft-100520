@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
 
   data.each do |outer_key, sub_hash|
     sub_hash.each do |inner_key, name|
-      sub_array.each do |ele|
+      name.each do |ele|
         if !hash[ele]
           hash[ele] = {}
         end
