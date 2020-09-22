@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
         if !hash[ele]
           hash[ele] = {}
         end
+        if 
       end
     end
   end 
