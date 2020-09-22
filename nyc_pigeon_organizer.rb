@@ -8,7 +8,8 @@ def nyc_pigeon_organizer(data)
     sub_hash.each do |inner_key, name|
       sub_array.each do |ele|
         if !hash[ele]
-          hash[ele] = 
+          hash[ele] = {}
+        end
       end
     end
   end 
